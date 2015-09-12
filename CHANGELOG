@@ -1,3 +1,6 @@
+1.1.1.2
+  - Update codeToCountry object to use upper case keys.
+
 1.1.1.1
   - Properly titlize the countries
 

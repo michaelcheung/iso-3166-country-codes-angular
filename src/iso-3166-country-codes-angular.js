@@ -259,7 +259,7 @@ angular.module('iso-3166-country-codes', [])
     holder.countryToCode = {};
 
     for(var key in holder.codeToCountry) {
-      holder.countryToCode[holder.codeToCountry[key]] = key;
+      holder.countryToCode[holder.codeToCountry[key].toUpperCase()] = key;
     }
 
     holder.isCountryCode = function(input) {
